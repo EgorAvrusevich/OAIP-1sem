@@ -1,0 +1,20 @@
+﻿Сборка начата 16.10.2023 2:28:47.
+Уровень детализации журнала: Normal.     1>Проект "D:\LESSONS\ОАиП\6 лаба\double\double.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\double.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\double.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         double.vcxproj -> D:\LESSONS\ОАиП\6 лаба\Project6\x64\Debug\double.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\double.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\double.tlog\double.lastbuildstate".
+     1>Сборка проекта "D:\LESSONS\ОАиП\6 лаба\double\double.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.03

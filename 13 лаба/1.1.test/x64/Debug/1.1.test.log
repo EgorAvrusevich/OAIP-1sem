@@ -1,0 +1,37 @@
+﻿Сборка начата 08.12.2023 2:30:15.
+Уровень детализации журнала: Normal.     1>Проект "D:\LESSONS\ОАиП\13 лаба\1.1.test\1.1.test.vcxproj" в узле 2 (целевые объекты Build).
+     1>D:\Visual studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (1.1.test.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\1.2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\1.2.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual studio\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt 1.2.cpp
+         1.2.cpp
+     1>D:\LESSONS\ОАиП\13 лаба\1.1.test\1.2.cpp(18,26): warning C4311: приведение типов: усечение указателя из "char *" в "int"
+     1>D:\LESSONS\ОАиП\13 лаба\1.1.test\1.2.cpp(18,26): warning C4302: приведение типов: усечение из "char *" к "int"
+     1>D:\LESSONS\ОАиП\13 лаба\1.1.test\1.2.cpp(8,17): warning C4101: length: неиспользованная локальная переменная
+       Link:
+         D:\Visual studio\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\LESSONS\ОАиП\13 лаба\Project1\x64\Debug\1.2.exe" /INCREMENTAL /ILK:"x64\Debug\1.2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\LESSONS\ОАиП\13 лаба\Project1\x64\Debug\1.2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\LESSONS\ОАиП\13 лаба\Project1\x64\Debug\1.2.lib" /MACHINE:X64 x64\Debug\1.2.obj
+         1.1.test.vcxproj -> D:\LESSONS\ОАиП\13 лаба\Project1\x64\Debug\1.2.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\1.2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\1.2.tlog\1.2.lastbuildstate".
+     1>Сборка проекта "D:\LESSONS\ОАиП\13 лаба\1.1.test\1.1.test.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\LESSONS\ОАиП\13 лаба\1.1.test\1.1.test.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         D:\Visual studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (1.1.test.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "D:\LESSONS\ОАиП\13 лаба\1.1.test\1.1.test.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\LESSONS\ОАиП\13 лаба\1.1.test\1.2.cpp(18,26): warning C4311: приведение типов: усечение указателя из "char *" в "int"
+         D:\LESSONS\ОАиП\13 лаба\1.1.test\1.2.cpp(18,26): warning C4302: приведение типов: усечение из "char *" к "int"
+         D:\LESSONS\ОАиП\13 лаба\1.1.test\1.2.cpp(8,17): warning C4101: length: неиспользованная локальная переменная
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:00.84

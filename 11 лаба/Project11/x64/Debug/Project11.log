@@ -1,0 +1,28 @@
+﻿Сборка начата 30.11.2023 17:12:59.
+Уровень детализации журнала: Normal.     1>Проект "D:\LESSONS\ОАиП\11 лаба\Project11\Project11.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\Project11.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual studio\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt 1.1.cpp
+         1.1.cpp
+     1>D:\LESSONS\ОАиП\11 лаба\Project11\1.1.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         D:\Visual studio\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\LESSONS\ОАиП\11 лаба\Project11\x64\Debug\Project11.exe" /INCREMENTAL /ILK:"x64\Debug\Project11.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\LESSONS\ОАиП\11 лаба\Project11\x64\Debug\Project11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\LESSONS\ОАиП\11 лаба\Project11\x64\Debug\Project11.lib" /MACHINE:X64 x64\Debug\1.1.obj
+         Project11.vcxproj -> D:\LESSONS\ОАиП\11 лаба\Project11\x64\Debug\Project11.exe
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: D:\LESSONS\ОАиП\11 лаба\Project11\1.cpp.
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Project11.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Project11.tlog\Project11.lastbuildstate".
+     1>Сборка проекта "D:\LESSONS\ОАиП\11 лаба\Project11\Project11.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\LESSONS\ОАиП\11 лаба\Project11\Project11.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\LESSONS\ОАиП\11 лаба\Project11\1.1.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:01.51
